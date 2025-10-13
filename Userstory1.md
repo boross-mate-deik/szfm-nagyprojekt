@@ -1,1 +1,1 @@
-Jani bácsi szeretné hosszú nap után ellazulni, ezért felmegy a böngészőjébe az oldalra ahol, bejelentkezés után a főoldalon találja magát. Mivel még kezdő ezért azt választja hogy gép ellen játszik még könnyebb fokozaton. Miután sikeresen megnyeri a játékot egy statisztikát kap a játékban eltöltőtt cselekvésekről. Feri bácsi örül mert összehasonlitva látja hogy fejlődött. Ezután kijelentkezik és bezárja a böngésző ablakot.
+Jani bácsi szeretné kedvenc játékának menüjét megnézni, hogy nosztalgiázzon. Megnyitja a játékot, átéli, milyenek voltak gyerekkora játékai, majd kilép.
