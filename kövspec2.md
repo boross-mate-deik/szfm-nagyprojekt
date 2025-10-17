@@ -19,11 +19,16 @@ helyszíneket tudnak felfedezni, és soha nem érződnek monotonnak, mindig fenn
 
 ### Funkcionális követelmények
 
-###Rendszerre vonatkozó törvények, szabványok, ajánlások
+### Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 ### Jelenlegi üzleti folyamatok modellje
 
 ### Igényelt üzleti folyamatok
+A játékos kezdhessen megadható nehézséggel új játékot, illetve folytathassa a régi játékait.
+Lehessen egyedi felszerelés kombinációkat kialakítani az érdekesebb játékmenetért.
+Legyen érdekes a felfedezés módszere, a lehetőségek keltsenek érdeklődést.
+A kapott jutalmak és az elérhető tapasztalattal kapott fejlesztések legyenek jelentőségteljesek.
+A harcok legyenek kihívásokkal teltek, de nem frusztrálóan nehezek.
 
 ### Követelménylista
 |Modul|ID|Név|Verzió|Kifejtés|
@@ -47,6 +52,7 @@ helyszíneket tudnak felfedezni, és soha nem érződnek monotonnak, mindig fenn
 |Rendszer|K16|Automatikus mentés|1.0|A kör elveszítése után a játék mentést készít, amely később betölthető.|
 |Rendszer|K17|Játék félbehagyása|1.0|Korai kilépés a játékból játék végét eredményez, amely elindítja az automatikus mentést.|
 |Felület|K18|Játék vége|1.0|Az összes pálya sikeres teljesítése után a játékos egy játék vége felületet kap, ahol az elért pontszámja megtekinthető.|
+|Felépítés|K19|Véletlenszerű pályák|1.1|A pálya véletlenszerű generálása érdekesebb játékmenetértés több újrajátszhatóságért.|
 
 ### Riportok
 
