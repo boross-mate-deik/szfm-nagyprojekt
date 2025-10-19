@@ -19,7 +19,7 @@ helyszíneket tudnak felfedezni, és soha nem érződnek monotonnak, mindig fenn
 
 ### Funkcionális követelmények
 
-### Rendszerre vonatkozó törvények, szabványok, ajánlások
+### Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 ### Jelenlegi üzleti folyamatok modellje
 
