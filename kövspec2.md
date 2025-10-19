@@ -29,6 +29,7 @@ Lehessen egyedi felszerelés kombinációkat kialakítani az érdekesebb játék
 Legyen érdekes a felfedezés módszere, a lehetőségek keltsenek érdeklődést.
 A kapott jutalmak és az elérhető tapasztalattal kapott fejlesztések legyenek jelentőségteljesek.
 A harcok legyenek kihívásokkal teltek, de nem frusztrálóan nehezek.
+Lehessen tesztelni a játék összetevőit egy adminisztrációs felületen keresztül.
 
 ### Követelménylista
 |Modul|ID|Név|Verzió|Kifejtés|
@@ -52,8 +53,26 @@ A harcok legyenek kihívásokkal teltek, de nem frusztrálóan nehezek.
 |Rendszer|K16|Automatikus mentés|1.0|A kör elveszítése után a játék mentést készít, amely később betölthető.|
 |Rendszer|K17|Játék félbehagyása|1.0|Korai kilépés a játékból játék végét eredményez, amely elindítja az automatikus mentést.|
 |Felület|K18|Játék vége|1.0|Az összes pálya sikeres teljesítése után a játékos egy játék vége felületet kap, ahol az elért pontszámja megtekinthető.|
-|Felépítés|K19|Véletlenszerű pályák|1.1|A pálya véletlenszerű generálása érdekesebb játékmenetértés több újrajátszhatóságért.|
+|Admin|K19|Alapvető admin felület|1.0|Debuggingra használható admin felület megvalósítása, melyben pályát lehet kihagyni, felszerelést beadni a karakternek, végtelen élet stb.
+|Felépítés|K20|Véletlenszerű pályák|1.1|A pálya véletlenszerű generálása érdekesebb játékmenetértés több újrajátszhatóságért.|
 
 ### Riportok
 
+Hogyan kezdhető el egy új játék?
+A főmenüben lévő új játék gombot használva, illetve a mentett játékok menüpontból egy korábbi mentést megnyitva.
+Hogyan működnek a harcok?
+A játékos egy megadott mennyiségű és komplexitású lépést tehet meg a körében, ami után az ellenségek is hasonlóan cselekednek. Ezután visszatér a kör a játékosra.
+Hogyan működik a zsákmányolás?
+Az egy szobában lévő összes ellenség legyőzése után a játékos automatikusan kap egy választási lehetőséget minden egyes tárgy megtartására az ellenségei által adott zsákmányról.
+Milyen a szintezési rendszer?
+A legyőzött ellenségek és meghódított szobák után a játékos tapasztalatot kap, amelyet új játék kezdésekor a karakter egyes erősségeinek fejlesztésére használhat fel. Ezek a pontok maradandóak.
+Hogyan menthető a játék?
+A játék automatikus mentést végez az elveszített körök után, illetve a játékból való kilépéskor.
+Hogyan tölthetőek be a korábbi mentések?
+A főmenüben a mentett játékok menüpontból.
+
+
 ### Fogalomtár
+
+Zsákmány: ellenségek által hordozott felszerelés, fegyverek és kincsek, melyet a játékos megkap, miután mindenkit legyőz az adott szobában.
+Felszerelés: olyan eszközök, páncélok, pajzsok, fegyverek és egyéb tárgyak, amelyek a játékos védelmét, támadási képességét és biztonságát biztosítják.
