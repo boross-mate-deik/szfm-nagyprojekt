@@ -52,30 +52,39 @@ Admin: a teljes játékhoz hozzáfér, viszont csalásokkal megsezgheti a szabá
 
 ### Képernyő tervek
 A főmenü:
+
 ![főmenü](./Kepek/1_menu.png)
 
 Új játék kezdése:
+
 ![főmenü új játék](./Kepek/2_menu_ujjatek.png)
 
 Régebbi mentések elérése:
+
 ![főmenü mentések](./Kepek/3_menu_mentesek.png)
 
 Beállítások menü:
+
 ![főmenü beállítások](./Kepek/4_menu_beallitasok.png)
 
 A játék alap kinézete:
+
 ![játékon belül](./Kepek/5_jatek.png)
 
 Játék közben a térkép megnyitva:
+
 ![játék térkép megnyitva](./Kepek/6_jatek_terkep.png)
 
 Raktár:
+
 ![játék raktár](./Kepek/7_jatek_raktar.png)
 
 Bolt:
+
 ![játék bolt](./Kepek/8_jatek_bolt.png)
 
 Szünet menü:
+
 ![játék leállítva](./Kepek/9_jatek_szunet.png)
 
 
