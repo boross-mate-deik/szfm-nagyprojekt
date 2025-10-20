@@ -25,11 +25,17 @@ helyszíneket tudnak felfedezni, és soha nem érződnek monotonnak, mindig fenn
 
 ### Igényelt üzleti folyamatok
 A játékos kezdhessen megadható nehézséggel új játékot, illetve folytathassa a régi játékait.
+
 Lehessen egyedi felszerelés kombinációkat kialakítani az érdekesebb játékmenetért.
+
 Legyen érdekes a felfedezés módszere, a lehetőségek keltsenek érdeklődést.
+
 A kapott jutalmak és az elérhető tapasztalattal kapott fejlesztések legyenek jelentőségteljesek.
+
 A harcok legyenek kihívásokkal teltek, de nem frusztrálóan nehezek.
+
 Lehessen tesztelni a játék összetevőit egy adminisztrációs felületen keresztül.
+
 
 ### Követelménylista
 |Modul|ID|Név|Verzió|Kifejtés|
@@ -60,14 +66,19 @@ Lehessen tesztelni a játék összetevőit egy adminisztrációs felületen kere
 
 Hogyan kezdhető el egy új játék?
 A főmenüben lévő új játék gombot használva, illetve a mentett játékok menüpontból egy korábbi mentést megnyitva.
+
 Hogyan működnek a harcok?
 A játékos egy megadott mennyiségű és komplexitású lépést tehet meg a körében, ami után az ellenségek is hasonlóan cselekednek. Ezután visszatér a kör a játékosra.
+
 Hogyan működik a zsákmányolás?
 Az egy szobában lévő összes ellenség legyőzése után a játékos automatikusan kap egy választási lehetőséget minden egyes tárgy megtartására az ellenségei által adott zsákmányról.
+
 Milyen a szintezési rendszer?
 A legyőzött ellenségek és meghódított szobák után a játékos tapasztalatot kap, amelyet új játék kezdésekor a karakter egyes erősségeinek fejlesztésére használhat fel. Ezek a pontok maradandóak.
+
 Hogyan menthető a játék?
 A játék automatikus mentést végez az elveszített körök után, illetve a játékból való kilépéskor.
+
 Hogyan tölthetőek be a korábbi mentések?
 A főmenüben a mentett játékok menüpontból.
 
@@ -75,4 +86,5 @@ A főmenüben a mentett játékok menüpontból.
 ### Fogalomtár
 
 Zsákmány: ellenségek által hordozott felszerelés, fegyverek és kincsek, melyet a játékos megkap, miután mindenkit legyőz az adott szobában.
+
 Felszerelés: olyan eszközök, páncélok, pajzsok, fegyverek és egyéb tárgyak, amelyek a játékos védelmét, támadási képességét és biztonságát biztosítják.

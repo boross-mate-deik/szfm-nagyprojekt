@@ -48,6 +48,7 @@ A mi játékunknak egy bármikor felkapható, bármekkora időablak(ok)ban játs
 
 ### Használati esetek
 Játékos: a játék teljes egészéhez hozzáférést kap. A haladás szabályok szerint történik.
+
 Admin: a teljes játékhoz hozzáfér, viszont csalásokkal megsezgheti a szabályokat, tesztelheti egyes nehezen hozzáférhető részeit a játéknak a sorban haladás nélkül.
 
 ### Képernyő tervek
@@ -91,6 +92,7 @@ Szünet menü:
 ### Forgatókönyv
 Első játék kezdése: a játékos elindítja a játékot, betölt a főmenü. Az új játék gombra nyomva kiválaszthat egy nehézségi szintet, majd elkezdődik a játék. Felfedezi a pár első szobát, harcol ellelnségekkel,
 de a játékismeret hiánya miatt hamar elbukik. A játék elmenti a haladását, ezt látja a játékos, ezért kikapcsolja a játékot.
+
 Játék folytatása: később visszatérve a játékos szeretné folytatni a haladását. A főmenüben lévő mentések gombra kattintva eléri a korábbi mentéseit, és folytatja az előző játékot.
 
 ### Fogalomszótár
