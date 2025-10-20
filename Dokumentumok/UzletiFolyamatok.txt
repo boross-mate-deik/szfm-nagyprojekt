@@ -1,0 +1,24 @@
+@startuml
+
+left to right direction
+
+actor Player as plr
+actor AdminDebug as dbg
+
+(Start game) as sg
+(Load save) as ls
+(Edit settings) as es
+(Play, access map, \naccess inventory\naccess shops) as general
+(Enter cheats,\naccess debug menus) as cheat
+
+plr --> sg
+plr --> ls
+plr --> es
+plr --> general
+sg <-- dbg
+ls <-- dbg
+es <-- dbg
+general <-- dbg
+cheat <-- dbg
+
+@enduml
