@@ -61,7 +61,7 @@ Régebbi mentések elérése:
 ![főmenü mentések](./Kepek/3_menu_mentesek.png)
 
 Beállítások menü:
-![főmenü beállítások(./Kepek/4_menu_beallitasok.png)
+![főmenü beállítások](./Kepek/4_menu_beallitasok.png)
 
 A játék alap kinézete:
 ![játékon belül](./Kepek/5_jatek.png)
