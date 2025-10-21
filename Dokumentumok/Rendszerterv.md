@@ -1,13 +1,13 @@
 # Rendszerterv
 
-1. A rendszer célja
+### A rendszer célja
 
 Az alkalmazás célja egy szórakoztató, de kihívásokkal teli kaland nyújtása a felhasználó felé.
 Az alkalmazás számítógépen érhető el, különálló programként.
 A játék többféle pályán keresztül vesz részt, sokféle ellenséggel, eszközökkel, fegyverekkel.
 A játékban való teljesítményért jobb felszerelést és karakterfejlesztéseket érhetünk el.
 
-2. Projektterv
+### Projektterv
 
 Projektfeladatok, felelősségek:
 
@@ -24,33 +24,33 @@ Projektfeladatok, felelősségek:
 Ütemterv:
 |Funkció/Story|Feladat/Task|Prioritás|Becslés|Aktuális becslés|Eltelt idő|Hátralévő idő|
 |-------------|------------|---------|-------|----------------|----------|-------------|
-|Követelmény specifikáció|||||||
-|Funkcionális speicifikáció|||||||
-|Rendszerterv|||||||
-|Felület|Főmenü megtervezése||||||
-||Fömenü implementálása||||||
-||Egyéb menük megtervezése||||||
-||Egyéb menük implementálása||||||
-||HUD megtervezése||||||
-||HUD implementálása||||||
-|Játékelemek|Karakterek||||||
-||Ellenségek||||||
-||Fegyverek||||||
-||Eszközök||||||
-||Pályák tervezése||||||
-||Pályák megvalósítása||||||
-|Játékmenet|Harcrendszer||||||
-||Boltok||||||
-||Pálya felfedezése||||||
-||Zsákmányolás||||||
-||Felszerelések használata||||||
-||Tapasztalat és szint rendszer||||||
+|Követelmény specifikáció||1|1|1|1|0|
+|Funkcionális speicifikáció||1|2|2|2|0|
+|Rendszerterv||1|4|4|2|2|
+|Felület|Főmenü megtervezése|1|2|2|2|0|
+||Fömenü implementálása|1|4|4|1|3|
+||Egyéb menük megtervezése|1|4|4|4|0|
+||Egyéb menük implementálása|1|4|4|0|4|
+||HUD megtervezése|1|4|4|4|0|
+||HUD implementálása|1|4|4|0|4|
+|Játékelemek|Karakterek|2|4|4|0|4|
+||Ellenségek|2|4|4|0|4|
+||Fegyverek|2|4|4|0|4|
+||Eszközök|2|4|4|0|4|
+||Pályák tervezése|2|8|8|0|8|
+||Pályák megvalósítása|2|8|8|0|8|
+|Játékmenet|Harcrendszer|2|8|8|0|8|
+||Boltok|4|8|8|0|8|
+||Pálya felfedezése|2|8|8|0|8|
+||Zsákmányolás|1|4|4|0|4|
+||Felszerelések használata|1|2|2|0|2|
+||Tapasztalat és szint rendszer|2|4|4|0|4|
 
-3. Üzleti folyamatok modellje
+### Üzleti folyamatok modellje
 
 ![Üzleti folyamatok modellje](./Kepek/uzl_foly_uml.png)
 
-4. Követelmények
+### Követelmények
 
 Funkcionális követelmények:
 
@@ -70,7 +70,7 @@ Törvényi előírások, szabványok:
 
 * GDPR-nak való megfelelés.
 
-5. Funkcionális terv
+### Funkcionális terv
 
 **Rendszerszereplők:**
 
@@ -136,3 +136,6 @@ Admin:
     * Játék folytatása
     * Beállítások
     * Kilépés a főmenübe
+    
+### Fizikai környezet
+
