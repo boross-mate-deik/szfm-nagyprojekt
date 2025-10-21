@@ -139,3 +139,73 @@ Admin:
     
 ### Fizikai környezet
 
+* Az alkalmazás számítógépes Windows rendszerekre készül.
+* A játék telepítés nélkül futtatható.
+* Nincsenek megvásárolandó komponensek.
+* Fejlesztői eszközök:
+    * Visual Studio Code
+    * Lua programozási nyelv
+    * Löve2D
+    * Notepad++
+    * Krita
+    * Git, GitHub
+
+### Architekturális terv
+
+Frontend: A frontendet Löve2D Lua keretrendszerű alkalmazással valósítjuk meg.
+
+Backend: A backendet szintúgy Löve2D Lua keretrendszerű alkalmazással valósítjuk meg. Szükség esetén MySql adatbázis fogja szolgálni az adatokat.
+
+### Adatbázis terv
+
+### Implementációs terv
+
+A játékfelület megvalósítására Löve2D Lua keretrendszert fogunk használni, egyes funkcionalitásokat külön fájlokba rendszerezve az átlátható fejlesztés és javíthatóság érdekében.
+
+Amennyiben szükséges az adatok hatékony hozzáférhetőségéhez, akkor MySql adatbázis támogatást adunk az alkalmazásunkhoz.
+
+### Tesztterv
+
+A tesztelések célja a rendszer és komponenseinek funckionalitásának kivizsgálása, leelenőrzése, a rendszer által megvalósított üzleti szolgáltatások biztosítása.
+
+**Tesztelési eljárások**
+
+**Unit teszt:**
+
+Ahol csak lehetséges, már a fejlesztés során érdemes vizsgálni a metódusok helyes működését.
+
+Ezen metódusok megfelelő működésének biztosításáért mindegyikhez kell írni unit teszteket, a lehető legnagyobb kódlefedettséggel. A metódusok akkor vannak készen, ha a unit tesztek hiba nélkül lefutnak.
+
+**Alfa teszt:**
+
+A teszt elsődleges célja az eddig meglévő funkcióknak a különböző rendszerekkel való kompatibilitásának a tesztelése. A tesztet a fejlesztők végzik.
+
+A teszt sikeres, ha működnek a különböző funkciók többféle rendszeren is. A teszt időtartama egy hét.
+
+**Tesztelendő funkciók:**
+**Backend:** képesnek kell lennie a játéknak a létező eszközöket, fegyvereket, karaktereket, ellenségeket betöltenie és használnia a játékmenet során, illetve mentéseket készíteni és később betölteni.
+
+**Frontend:** a játéknak egy játék folytatására alkalmas felületet kell biztosítania, mely minden szükséges információt megjelenít, és minden szükséges parancsot a backend felé továbbít.
+
+### Telepítési terv
+
+* A játékot tartalmazó tömörített állományt ki kell csomagolni és elhelyezni egy, a felhasználó számára alkalmas mappába.
+
+* Futtassa a játék .exe fájlját.
+
+* Esetleges hibák esetén telepíteni kell a (később kitöltendő) könyvtárat a futás érdekében.
+
+### Karbantartási terv
+
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák kijavítását, a fejlesztői igények változása miatti módosításokat, valamint a megrendelő által nyújtott további igények
+miatti program- illetve állomány módosítási igényeket. Ellenőrizni kell az újabb Windows rendszerekkel való kompatibilitást, emellett újabb játék tartalommal fent kell tartani a játékosok érdeklődését.
+
+**Karbantartás**
+
+Corrective Maintenance: a felhasználók által felfedezett és bejelentett hibák kijavítása.
+
+Adaptive Maintenance: a program naprakészen tartása és finomhangolása.
+
+Perfective Maintenance: a program hosszútávú használata érdekében végzett változtatások, új funkciók, a szoftver teljesítményének és megbízhatóságának javítása.
+
+Preventitive Maintenance: olyan problémák elhárítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
