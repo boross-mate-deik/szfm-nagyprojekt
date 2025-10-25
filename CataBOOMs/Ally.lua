@@ -1,6 +1,6 @@
 local love = require "love"
 
-function Ally(health, armor, weapon, actionPoint, cards, strength, accuracy, magic)
+function Ally(health, armor, weapon, actionPoint, belt, strength, accuracy, magic)
     return {
         maxHealth = health,
         currentHealth = health,
@@ -8,11 +8,14 @@ function Ally(health, armor, weapon, actionPoint, cards, strength, accuracy, mag
         weapon = weapon,
         actionPointMax = actionPoint,
         actionPointCurrent = actionPoint,
-        cardsMax = cards,
-        cardsCurrent = cards,
+        belt = belt, --TODO
         strength = strength,
         accuracy = accuracy,
-        magic = magic
+        magic = magic,
+
+        useCard = function (cardId, target)
+            --TODO
+        end
     }
 end
 

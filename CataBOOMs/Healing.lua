@@ -1,9 +1,9 @@
 local love = require "love"
 
-function Healing(amount)
-    return {
-        amount = amount
-    }
+function Healing(card, amount)
+    local healing = card
+    healing.amount = amount
+    return healing
 end
 
 return Healing
