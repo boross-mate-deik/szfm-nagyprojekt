@@ -1,3 +1,5 @@
+local love = require "love"
+
 local function newButton(text, fn)
     return {
         text = text,
