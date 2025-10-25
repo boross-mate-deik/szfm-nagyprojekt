@@ -1,0 +1,39 @@
+fő lépés számláló: erély, 5-15-ig terjed.
+a legkevésbé erélyes karakterek 5 lépésnyi tevékenységet tehetnek körönként, a legerélyesebb karakterek pedig 15-öt.
+az egyszerűség kedvéért ezeket a pontokat lépésnek, lépés pontnak is hívjuk.
+
+fegyverek átlagos költsége: ~4-8 lépés. egy egyszerű kés használata kerülhet 4 lépésbe, de egy nagy bárd lehet, hogy 7 lépésbe kerül.
+
+fegyverek:
+    kés vágás: 4 lépés, 10 sebzés
+    kés döfés: 4 lépés, 9 sebzés
+    
+    egykezes kard vágás: 4 lépés, 12 sebzés
+    egykezes kard döfés: 5 lépés, 12 sebzés
+    
+    kétkezes kard vágás: 6 lépés, 16 sebzés
+    
+    csatabárd vágás: 8 lépés, 22 sebzés
+    
+    lándzsa döfés: 7 lépés, 16 sebzés
+    
+
+a páncélok védelmet nyújtanak egyes típusú fegyverek ellen. általánosságban vágás ellen a páncélok jobban védenek.
+a védés statisztika megmondja, hogy a támadás erősségéből mennyit fog levonni. 10 erősségű támadás ellen 5 védelem esetén 5 sebzést okoz a fegyver.
+
+páncélok:
+    könnyű bőr ruha: 3 vágás, 2 döfés védelem
+    
+    könnyű bőrvért: 5 vágás, 3 dőfés védelem
+    
+    nehéz bőrvért: 7 vágás, 5 döfés védelem, -1 max lépés
+    
+    láncvért: 7 vágás, 3 döfés védelem
+    
+    közepes vaspáncél: 8 vágás, 7 döfés védelem, -2 max lépés
+    
+    nehéz vaspáncél: 10 védelem, -3 max lépés
+    
+    
+
+életerő: az átlagos életerő 75-150-ig terjed.

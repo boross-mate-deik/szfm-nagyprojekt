@@ -1,0 +1,16 @@
+a legtöbb lépés kisebb fegyverekkel, vagy kiegészítő lépések pl védekezés ilyesmik kevesebb lépéspontba kerülnek, körönként több lépést tehetünk meg átlagon, pl 10-20 lépéspontja lehet karakternek
+
+körönként lehet pakliból húzni 1-2 kártyát, amely kiegészítő lépéseket tartalmaz pl kis fegyver (kő dobás), területfüggő lépés pl szirtől lelökés, lávába lökés stb
+a kiegészítő pakli maximum pl 4-6 kártyáig terjedhet, ha nem jó a húzott lapok összessége, mindet bedobhatod lépésért, hogy következő körben újakat húzhass
+a húzópakli kártyái egyszerhasználatosak, lépésbe kerül használni, használatuk megegyezik a saját pakli kártyáinak használatával
+
+fegyver, armor rendszer hasonló, mint a terv 1-ben
+
+classes: különálló bónuszokat nyúlytanak, amelyeknek más csoportnak nincs hozzáférése
+alchemist, archer, swordsman, (huntsman, summoner stílusú, csapattárs tesztelésére jól használható)
+
+skills: hp, speed (lépéspont), strength, accuracy, magic
+
+
+
+a level up-okon kapott pontokat elköltheted a skillekre, amelyeknél ki van írva, hogy hány pont múlva lesznek hatékonyabbak (lépéspont) a támadásaik, vagy mikor lesznek erősebbek.
