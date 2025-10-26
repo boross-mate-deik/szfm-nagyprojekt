@@ -1,0 +1,1 @@
+Robi, elinditja a programot és a tegnapi mentése ellenére úgy dönt hogy egy új játékba kezd. Ezzen a játékba kiválasztja az adott osztályát a karakterének, és ezután rögtön egy bevezető harcban találja magát, harc során körökön keresztül szerez kártyákat, és ezeket a kártyákat használhatja fel lépés pontokért.

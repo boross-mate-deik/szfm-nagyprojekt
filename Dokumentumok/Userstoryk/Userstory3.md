@@ -1,0 +1,1 @@
+Károly elinditja a programot és egy tegnapi mentését tölti be a "Load game" opcióval. Eben a mentésében egy harc közepében folytatja az előző játékot. Az öve tele van kártyákkal, de a HP(Hitpoint)/életereje túl kevés. és egy pár körön belül elveszti a harcot.
