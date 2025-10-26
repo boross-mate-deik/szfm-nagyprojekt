@@ -1,5 +1,3 @@
-local love = require "love"
-
 function Attack(type, damage, cost)
     return {
         type = type,

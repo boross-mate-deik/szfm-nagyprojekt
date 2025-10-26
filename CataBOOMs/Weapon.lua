@@ -1,4 +1,3 @@
-local love = require "love"
 local Attack = require "Attack"
 
 function Weapon(card, type, ...)

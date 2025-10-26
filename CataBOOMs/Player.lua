@@ -1,5 +1,3 @@
-local love = require "love"
-
 function Player(ally, level, strBonus, accBonus, magicBonus)
     local player = ally
 

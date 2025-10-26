@@ -1,12 +1,12 @@
-local love = require "love"
-
-function GenericCard(type, name, description, source, multiUse)
+function GenericCard(type, name, description, source, multiUse, numOfCasters, numOfEnemies)
     return {
         type = type,
         name = name,
         description = description,
         source = source,
-        multiUse = multiUse
+        multiUse = multiUse,
+        numOfCasters = numOfCasters,
+        numOfEnemies = numOfEnemies
     }
 end
 

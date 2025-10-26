@@ -1,5 +1,3 @@
-local love = require "love"
-
 function Belt(size)
     local cards = {}
     return {
