@@ -1,27 +1,7 @@
 function UseCard(mainCaster, cardNum, actionNum, casters, targets)
-    local mainCasterId = mainCaster.id
-    local mainCasterType = mainCaster.type
-    local mainCasterMaxHealth = mainCaster.maxHealth
-    local mainCasterCurrentHealth = mainCaster.currentHealth
-    local mainCasterArmor = mainCaster.armor
-    local mainCasterWeapon = mainCaster.weapon
-    local mainCasterActionPointMax = mainCaster.actionPointMax
-    local mainCasterActionPointCurrent = mainCaster.actionPointCurrent
-    local mainCasterBelt = mainCaster.belt
-    local mainCasterStrength = mainCaster.strength
-    local mainCasterAccuracy = mainCaster.accuracy
-    local mainCasterMagic = mainCaster.magic
+    local card = mainCaster.belt.cards[cardNum]
 
-    local card = mainCasterBelt.cards[cardNum]
-
-    local cardId = card.id
-    local cardType = card.type
-    local cardSource = card.source
-    local cardIsMultiUse = card.multiUse
-    local cardNumOfCasters = card.numOfCasters
-    local cardNumOfTargets = card.numOfTargets
-
-    if cardType == "weapon" then
+    if card.type == "weapon" then
         --[[local weaponType = card.weaponType
         local attack = card.attacks[actionNum]
         local attackType = attack.type
@@ -35,19 +15,17 @@ function UseCard(mainCaster, cardNum, actionNum, casters, targets)
                 end
             end
         end]]
-    elseif cardType == "defense" then
+    elseif card.type == "defense" then
 
-    elseif cardType == "heal" then
-        local healingAmount = card.amount
-        local healingCost = card.cost
+    elseif card.type == "heal" then
 
         if #casters == 1 then
-            if healingCost <= mainCasterActionPointCurrent then
-                mainCasterActionPointCurrent = mainCasterActionPointCurrent - healingCost
-                mainCasterCurrentHealth = mainCasterCurrentHealth + healingAmount
+            if card.cost <= mainCaster.actionPointCurrent then
+                mainCaster.actionPointCurrent = mainCaster.actionPointCurrent - card.cost
+                mainCaster.currentHealth = mainCaster.currentHealth + card.amount
 
-                if mainCasterCurrentHealth > mainCasterMaxHealth then
-                    mainCasterCurrentHealth = mainCasterMaxHealth
+                if mainCaster.currentHealth > mainCaster.maxHealth then
+                    mainCaster.currentHealth = mainCaster.maxHealth
                 end
             end
         end
