@@ -22,7 +22,7 @@ function UseCard(mainCaster, cardNum, actionNum, casters, targets)
     local cardNumOfTargets = card.numOfTargets
 
     if cardType == "weapon" then
-        local weaponType = card.weaponType
+        --[[local weaponType = card.weaponType
         local attack = card.attacks[actionNum]
         local attackType = attack.type
         local attackDamage = attack.damage
@@ -31,14 +31,26 @@ function UseCard(mainCaster, cardNum, actionNum, casters, targets)
             if attackCost <= mainCasterActionPointCurrent then
                 if #targets == 1 then
                     local target = targets[1]
-                    
+
                 end
             end
-        end
+        end]]
     elseif cardType == "defense" then
 
     elseif cardType == "heal" then
+        local healingAmount = card.amount
+        local healingCost = card.cost
 
+        if #casters == 1 then
+            if healingCost <= mainCasterActionPointCurrent then
+                mainCasterActionPointCurrent = mainCasterActionPointCurrent - healingCost
+                mainCasterCurrentHealth = mainCasterCurrentHealth + healingAmount
+
+                if mainCasterCurrentHealth > mainCasterMaxHealth then
+                    mainCasterCurrentHealth = mainCasterMaxHealth
+                end
+            end
+        end
     end
 end
 
