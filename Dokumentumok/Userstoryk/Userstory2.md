@@ -1,0 +1,1 @@
+Béla bácsi nap végén, kikapcsolás véget, elinditja a játékot. A játék során kártyákat felhasználva, győzi le az ellenségeket, amig elnem ér a végső harcig amiben veszít.

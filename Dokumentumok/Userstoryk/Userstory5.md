@@ -1,0 +1,1 @@
+Máté elinditja a játékot, kíválasztja a karakterét és elkezd harcolni, a játék során ellenfeleket győz le és a legyőzőt ellenfelek után kap jutalmat, amik megmaradnak harcok során. A jutalmak a fegyverek, és egyszer/többször felhasználható kártya akciók.
