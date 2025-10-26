@@ -1,3 +1,5 @@
+local Defense = require "Defense"
+
 function Armor(id, type, name, description, source, multiUse, numOfCasters, numOfTargets, armorType, ...)
     local armor = GenericCard(id, type, name, description, source, multiUse, numOfCasters, numOfTargets)
     armor.armorType = armorType

@@ -1,4 +1,6 @@
 local love = require "love"
+local Character = require "Character"
+local tests = require "tests"
 
 local function newButton(text, fn)
     return {
@@ -20,7 +22,8 @@ function love.load()
     table.insert(buttons, newButton(
         "New Game",
         function()
-            --todo
+            local testObject = tests()
+            testObject.testHeal()
         end
         )
     )

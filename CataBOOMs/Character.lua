@@ -1,4 +1,6 @@
+local Belt = require "Belt"
 local useCard = require "UseCard"
+local Player = require "Player"
 
 function Character(id, type, name, health, armor, weapon, actionPoint, belt, strength, accuracy, magic)
     return {

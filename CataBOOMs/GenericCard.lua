@@ -1,3 +1,7 @@
+local Weapon = require "Weapon"
+local Armor = require "Armor"
+local Healing = require "Healing"
+
 function GenericCard(id, type, name, description, source, multiUse, numOfCasters, numOfTargets)
     return {
         id = id,

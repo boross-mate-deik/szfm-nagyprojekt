@@ -1,3 +1,5 @@
+local GenericCard = require "GenericCard"
+
 function Belt(size)
     local cards = {}
     return {
