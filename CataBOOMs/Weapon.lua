@@ -1,8 +1,8 @@
 local Attack = require "Attack"
 
-function Weapon(card, type, ...)
-    local weapon = card
-    weapon.type = type
+function Weapon(id, type, name, description, source, multiUse, numOfCasters, numOfTargets, weaponType, ...)
+    local weapon = GenericCard(id, type, name, description, source, multiUse, numOfCasters, numOfTargets)
+    weapon.weaponType = weaponType
     weapon.attacks = {}
     for _, attack in pairs(...) do
         local attackType = attack[1]

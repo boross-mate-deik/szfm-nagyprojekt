@@ -1,6 +1,6 @@
-function Armor(card, type, ...)
-    local armor = card
-    armor.type = type
+function Armor(id, type, name, description, source, multiUse, numOfCasters, numOfTargets, armorType, ...)
+    local armor = GenericCard(id, type, name, description, source, multiUse, numOfCasters, numOfTargets)
+    armor.armorType = armorType
     armor.defenses = {}
     for _, attack in pairs(...) do
         local attackType = attack[1]
