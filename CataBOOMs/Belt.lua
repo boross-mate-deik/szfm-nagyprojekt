@@ -11,6 +11,7 @@ function Belt(size)
                 table.insert(cards, card)
             else
                 --TODO implement error message
+                print("error")
             end
         end
     }
